@@ -1,0 +1,24 @@
+This is a simple list of planned upgrades/mods
+- [] Install fan on Raspberry
+- [] Model Housing for new attached screen
+- [] Relocate Raspberry to new screen attachment Housing
+- [] Add filament runout sensor
+- [] Model ESP32-Cam mount for Z axis (motor cover)
+- [] Install & Configure ESP32-Cam
+- [] Upgrade to Direct Drive
+- [] Replace HotEnd Shroud
+- [] Replace Hotend Fan
+- [] Replace Part Cooling Fan
+- [] Solid Mount bed
+- [] Upgrade Bed Screws
+- [] Add NeoPixel LED Ring to Nozzle
+- [] Investigate Removing USB Cable for Direct Serial Communication (See Spuder Repo)
+- [] E-Step Calibration - https://www.youtube.com/watch?v=rp3r921DBGI
+- [] Slicer Flow Calibration - https://www.youtube.com/watch?v=rp3r921DBGI
+- [] flow calibration https://3dprintbeginner.com/flow-rate-calibration/
+- [] Turn LEDS On/Off based on Printing Status
+- [] Raspberry Fan Control based on Raspberry Temps
+- [] Home Assistant Integration (If Possible)
+- [] InfluxDB Metrics Collection (If Possible)
+- [] Telegram Bot setup & configuration
+- [] Learn & Implement ansible configs from base repo (See Spuder repo)

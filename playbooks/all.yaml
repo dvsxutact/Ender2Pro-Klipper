@@ -1,0 +1,16 @@
+---
+- name: all
+  hosts: ender2pro
+  remote_user: pi
+  gather_facts: no
+  become: yes
+  become_user: root
+
+- name: klipper
+  import_playbook: ./klipper_config.yaml
+- name: moonraker
+  import_playbook: ./moonraker_config.yaml
+- name: webcam
+  import_playbook: ./webcam_config.yaml
+- name: input_shaper
+  import_playbook: ./input_shaper.yaml
